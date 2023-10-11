@@ -6,7 +6,7 @@ transaction and one sell transaction but must buy before we sell.
 Example : prices = [7, 1, 5, 3, 6, 4]
 max_profit will return 5 - which is by buying at price 1 and selling at price 6.
 
-This problem can be solved using the concept of "GREEDY ALGORITHM".
+This problem can be solved using the concept of "GREEDY ALGORITHM"
 
 We iterate over the price array once, keeping track of the lowest price point
 (buy) and the maximum profit we can get at each point.  The greedy choice at each point
